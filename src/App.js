@@ -2,6 +2,7 @@ import './App.css';
 import Gallery from './pages/MyFirstComponent';
 import TodoList from './pages/JSXCase';
 import WithCurlyBraces, { DoubleCurlies } from './pages/WithCurlyBraces';
+import Profile from './pages/PassingProps';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <br />
       <h1>Use double curlis in CSS</h1>
       <DoubleCurlies />
+      <br />
+      <h1>Passing props to component</h1>
+      <Profile />
     </div>
   );
 }
