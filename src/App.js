@@ -1,9 +1,9 @@
 import './App.css';
-import Gallery from './pages/MyFirstComponent';
-import TodoList from './pages/JSXCase';
-import WithCurlyBraces, { DoubleCurlies } from './pages/WithCurlyBraces';
-import Profile, {Profile2} from './pages/PassingProps';
-import PackingList from './pages/ConditionalRendering';
+import Gallery from './pages/UI/MyFirstComponent';
+import TodoList from './pages/UI/JSXCase';
+import WithCurlyBraces, { DoubleCurlies } from './pages/UI/WithCurlyBraces';
+import Profile, {Profile2} from './pages/UI/PassingProps';
+import PackingList from './pages/UI/ConditionalRendering';
 
 function App() {
   return (
