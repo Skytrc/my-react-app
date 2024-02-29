@@ -2,7 +2,8 @@ import './App.css';
 import Gallery from './pages/MyFirstComponent';
 import TodoList from './pages/JSXCase';
 import WithCurlyBraces, { DoubleCurlies } from './pages/WithCurlyBraces';
-import Profile from './pages/PassingProps';
+import Profile, {Profile2} from './pages/PassingProps';
+import PackingList from './pages/ConditionalRendering';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
       <br />
       <h1>Passing props to component</h1>
       <Profile />
+      <h1>Passing JSX as children</h1>
+      <Profile2 />
+      <h1>Conditional rendering with :?</h1>
+      <PackingList />
     </div>
   );
 }

@@ -12,6 +12,29 @@ function Avatar ({ person, size }) {
     );
 }
 
+function Card({ children }) {
+    return (
+        <div className="card">
+            { children }
+        </div>
+    );
+}
+
+export function Profile2() {
+    // the `card` component below will receive a children prop
+    return (
+        <Card>
+            <Avatar
+                size={100}
+                person={{ 
+                    name: 'Katsuko Saruhashi',
+                    imageId: 'YfeOqp2'
+                }}
+            />
+        </Card>
+    );
+}
+
 export default function Profile() {
     return(
         <div>
