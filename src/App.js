@@ -4,6 +4,7 @@ import TodoList from './pages/UI/JSXCase';
 import WithCurlyBraces, { DoubleCurlies } from './pages/UI/WithCurlyBraces';
 import Profile, {Profile2} from './pages/UI/PassingProps';
 import PackingList from './pages/UI/ConditionalRendering';
+import RenderingList from './pages/UI/RenderingLists';
 
 function App() {
   return (
@@ -22,10 +23,15 @@ function App() {
       <br />
       <h1>Passing props to component</h1>
       <Profile />
+      <br />
       <h1>Passing JSX as children</h1>
       <Profile2 />
+      <br />
       <h1>Conditional rendering with :?</h1>
       <PackingList />
+      <br />
+      <h1>Rendering Lists</h1>
+      <RenderingList />
     </div>
   );
 }
